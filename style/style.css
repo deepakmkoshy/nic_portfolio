@@ -1,0 +1,34 @@
+#indivbox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#indivbox:hover{
+    border: 1px solid orange;
+    background-image: linear-gradient(to top, orange, yellow);
+
+
+}
+
+#box-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#app-store-icon{
+    width: 3rem;
+}
+
+#download{
+    display: flex;
+}
+
+html{
+    background-image: linear-gradient(to bottom, white, yellow);
+}
